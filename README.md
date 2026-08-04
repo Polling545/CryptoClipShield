@@ -11,7 +11,13 @@ A lightweight Python tool designed to protect your cryptocurrency assets by moni
 - **Lightweight & Open-Source**: Zero cost, easy to run, and built for crypto security enthusiasts.
 
 ## Requirements
-Make sure you have Python installed, then install the required dependencies:
+Make sure you have Python installed on your system.
+
+## Installation
+Clone the repository and install the required dependencies:
 ```bash
 pip install psutil pyperclip
 
+## Usage
+Run the script locally to start monitoring:
+python shield.py
