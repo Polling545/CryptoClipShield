@@ -17,7 +17,8 @@ Make sure you have Python installed on your system.
 Clone the repository and install the required dependencies:
 ```bash
 pip install psutil pyperclip
-
+```
 ## Usage
 Run the script locally to start monitoring:
+```bash
 python shield.py
