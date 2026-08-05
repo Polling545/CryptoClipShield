@@ -9,10 +9,13 @@ Requirements
 Make sure you have Python installed on your system.
 
 Installation
+
 Clone the repository and install the required dependencies:
+
 pip install psutil pyperclip
 
 Usage
+
 Run the script locally to start monitoring and managing potential threats:
 python shield.py
 
