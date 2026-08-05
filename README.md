@@ -19,3 +19,11 @@ Clone the repository and install the required dependencies:
 
 ```bash
 pip install psutil pyperclip
+
+## Usage
+
+Run the script locally to start monitoring and managing potential threats:
+
+```bash
+python shield.py
+
