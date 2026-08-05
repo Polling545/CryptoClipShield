@@ -7,6 +7,7 @@ Features
  * Lightweight & Open-Source: Zero cost, easy to run, and built for crypto security enthusiasts.
 Requirements
 Make sure you have Python installed on your system.
+
 Installation
 Clone the repository and install the required dependencies:
 pip install psutil pyperclip
