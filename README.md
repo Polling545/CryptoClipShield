@@ -23,6 +23,7 @@ Please read the following safety instructions carefully before using this tool:
    ```bash
    pip install psutil pyperclip
    ```
-3. Run the Program:
+3. **Run the Program**:
+   ```bash
    python shield.py
 
