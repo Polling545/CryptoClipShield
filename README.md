@@ -1,29 +1,19 @@
-# CryptoClipShield
+CryptoClipShield
+A lightweight open-source Python security auxiliary script designed to provide basic cryptocurrency asset protection through local process monitoring and clipboard behavior analysis.
+⚠️ Important Notice and Limitations (Disclaimer)
+Please read the following safety instructions carefully before using this tool:
+ * Defense Limitations: This tool uses basic feature-matching logic for monitoring. It can only identify processes with obvious naming characteristics (such as containing keywords like keylog, stealer, hook, etc.). Do not treat it as a substitute for professional enterprise-grade firewalls or antivirus software. If malicious programs disguise their names or run through other advanced stealth techniques, this script may fail to identify or intercept them.
+ * Potential False Positive Risk: This script has automatic process termination and file-moving functions. If any legal development debugging tools, system assistant programs, or special software running on your system have process names containing the aforementioned sensitive keywords, misjudgment may be triggered. Please ensure you understand all relevant processes running in your system before running this script.
+ * For Learning and Personal Use Only: The original intention of this project is to enhance personal defense awareness against clipboard attacks. Do not rely solely on this script for protection in production environments or critical asset devices.
+Features
+ * Clipboard Guard: Real-time monitoring of clipboard activity to accurately identify Bitcoin and Ethereum addresses, preventing clipboard tampering threats.
+ * Process Audit: Scans active background processes and issues initial warnings for programs suspected of malicious behavior.
+ * Quarantine Zone Mechanism: Automatically moves flagged suspicious files into a local quarantine_zone, giving you full authority to dispose of them (delete, restore, or check).
+How to Use
+ * Environment Preparation: Ensure Python is installed on your system and environment variables are configured.
+ * Dependency Installation:
+   pip install psutil pyperclip
 
-A lightweight Python tool designed to protect your cryptocurrency assets by monitoring the system clipboard for potential hijackers, scanning for suspicious background processes, and safely isolating potential threats.
-
-## Features
-
-- **Clipboard Guard**: Monitors clipboard activity to detect exposed cryptocurrency addresses (Bitcoin, Ethereum).
-- **Process Scanner**: Inspects active background processes for suspicious indicators or potential stealer scripts.
-- **Interactive Quarantine Zone**: Automatically isolates flagged suspicious files into a secure local directory (`quarantine_zone`), giving you full control to inspect, restore, or permanently delete them.
-- **Lightweight & Open-Source**: Zero cost, easy to run, and built for crypto security enthusiasts.
-
-## Requirements
-
-Make sure you have Python installed on your system.
-
-## Installation
-
-Clone the repository and install the required dependencies:
-
-```bash
-pip install psutil pyperclip
-```
-## Usage
-
-Run the script locally to start monitoring and managing potential threats:
-
-```bash
-python shield.py
+ * Run the Program:
+   python shield.py
 
